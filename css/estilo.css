@@ -41,5 +41,15 @@
     margin-right: 10px;
 }
 
+@media screen and (max-width:768px){
+    .contenedor{
+        grid-template-columns:  1fr;
+        grid-template-areas:    "header"
+                                "nav"
+                                "contenido"
+                                "ads"
+                                "footer";
+    }
+}
 
 
