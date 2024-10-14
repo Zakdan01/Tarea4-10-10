@@ -1,0 +1,45 @@
+.contenedor{
+    padding: 5px;
+    background-color: #7fd5f9;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-areas:    "header header"
+                            "nav nav"
+                            "contenido ads"
+                            "footer footer";
+}
+.header{
+    background-color: #7ff9a3;
+    grid-area: header;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navi{
+    background-color: #7ff9a3;
+    grid-area: nav;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contenido{
+    background-color: #7ff9a3;
+    grid-area: contenido;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding: 5px;
+}
+.ads{
+    background-color: #7ff9a3;
+    grid-area: ads;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding: 5px;
+}
+.footer{
+    background-color: #324d30;
+    grid-area: footer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
